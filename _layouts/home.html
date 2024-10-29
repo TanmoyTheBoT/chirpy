@@ -2,6 +2,15 @@
 layout: default
 refactor: true
 ---
+<script>
+  // Check if the visitor has already visited the landing page
+  if (!localStorage.getItem('visitedLandingPage')) {
+    // Redirect to the landing page
+    window.location.href = "/landing.html"; // Adjust this if necessary
+    // Mark the landing page as visited
+    localStorage.setItem('visitedLandingPage', 'true');
+  }
+</script>
 
 {% include lang.html %}
 
