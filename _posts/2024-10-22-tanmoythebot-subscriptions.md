@@ -1,5 +1,5 @@
 ---
-title: "TanmoyTheBoT Subscriptions"
+title: "TanmoyTheBoT Subscriptions - Currently Out of Stock"
 date: 2024-10-22 00:30:00 +600
 categories: [Subscriptions, Streaming]
 tags: [netflix, crunchyroll, amazon prime, streaming]
@@ -21,13 +21,14 @@ author: tanmoythebot
 | **Netflix**      | 1 Month      | 1 Device - --tk |
 | **Amazon Prime** | 1 Month      | 1 Device - --tk |
 -->
-> **Note:** To purchase any subscription, please inbox [https://t.me/TanmoyTheBoT](https://t.me/TanmoyTheBoT)
+> **Note:** To purchase any subscription, please inbox <a href="https://t.me/TanmoyTheBoT" target="_blank" rel="noopener noreferrer">https://t.me/TanmoyTheBoT</a>
 
 ## Contact:
-- **Telegram ID**: [https://t.me/TanmoyTheBoT](https://t.me/TanmoyTheBoT)
-- **Telegram Channel**: [https://t.me/TanmoyTheBoT777](https://t.me/TanmoyTheBoT777)
-- **Messenger**: [https://www.facebook.com/tanmoythebot777](https://www.facebook.com/tanmoythebot777)
-- **Discord**: [https://discord.com/invite/7Be8w34r3B](https://discord.com/invite/7Be8w34r3B)
+- **Telegram ID**: <a href="https://t.me/TanmoyTheBoT" target="_blank" rel="noopener noreferrer">https://t.me/TanmoyTheBoT</a>
+- **Telegram Channel**: <a href="https://t.me/TanmoyTheBoT777" target="_blank" rel="noopener noreferrer">https://t.me/TanmoyTheBoT777</a>
+- **Messenger**: <a href="https://www.facebook.com/tanmoythebot777" target="_blank" rel="noopener noreferrer">https://www.facebook.com/tanmoythebot777</a>
+- **Discord**: <a href="https://discord.com/invite/7Be8w34r3B" target="_blank" rel="noopener noreferrer">https://discord.com/invite/7Be8w34r3B</a>
+
 
 
 ---
@@ -66,7 +67,7 @@ author: tanmoythebot
 ## How to Purchase:
 
 1. Select the service you want.
-2. Inbox [@TanmoyTheBoT](https://t.me/TanmoyTheBoT) with the service name and desired duration.
+2. Inbox <a href="https://t.me/TanmoyTheBoT" target="_blank" rel="noopener noreferrer">@TanmoyTheBoT</a> with the service name and desired duration.
 3. Enjoy!
 
 ---
