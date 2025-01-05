@@ -14,14 +14,7 @@ content:
         label: Title
         type: string
         required: true
-      - name: category
-        label: Category
-        type: select
-        options:
-          Blog: "Blog"
-          Tutorial: "Tutorial"
-          News: "News"
-          Review: "Review"
+     
       - name: published
         label: Published
         type: boolean
@@ -42,6 +35,7 @@ content:
         type: string
         options:
           maxlength: 160
+        
 
       - name: comments
         label: Comments
