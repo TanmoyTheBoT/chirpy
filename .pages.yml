@@ -38,7 +38,12 @@ content:
             - value: '[Tutorials]' 
               label: Tutorials
 
-        
+      - name: tag
+        label: Tag
+        type: select
+        options:
+         values: [ tanmoythebot, News, tanmoy ]
+         
          
       - name: body
         label: Body
