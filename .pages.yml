@@ -10,20 +10,20 @@ content:
     view:
       fields: [title, date, category, tags, description, comments, pin, published, image, author]
     fields:
+    
       - name: title
         label: Title
         type: string
         required: true
      
-      - name: published
-        label: Published
-        type: boolean
-        default: true
+
       - name: date
         label: Date
         type: date
         options:
+         time: true
          format: yyyy-MM-dd HH:mm +600
+         
       - name: body
         label: Body
         type: rich-text
@@ -35,7 +35,11 @@ content:
         type: string
         options:
           maxlength: 160
-        
+          
+      - name: published
+        label: Published
+        type: boolean
+        default: true        
 
       - name: comments
         label: Comments
