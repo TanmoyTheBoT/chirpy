@@ -8,7 +8,7 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [title, date, category, tags, description, comments, pin, published, image, author]
+      fields: [title, date, category]
     fields:
       - name: title
         label: Title
@@ -22,10 +22,6 @@ content:
           Tutorial: "Tutorial"
           News: "News"
           Review: "Review"
-      - name: published
-        label: Published
-        type: boolean
-        default: true
       - name: date
         label: Date
         type: date
@@ -35,19 +31,6 @@ content:
       - name: image
         label: Image
         type: image
-      - name: description
-        label: Description
-        type: string
-        options:
-          maxlength: 160
-      
-      - name: comments
-        label: Comments
-        type: boolean
-        default: true
-      - name: author
-        label: Author
-        type: string
 
   - name: config
     label: Jekyll config
