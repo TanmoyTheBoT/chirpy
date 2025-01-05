@@ -1,18 +1,50 @@
-media: assets/images
+media:
+  input: assets/images
+  output: /assets/images
+
 content:
   - name: posts
     label: Posts
     type: collection
     path: _posts
     view:
-      fields: [title, date, categories, tags, description, comments, pin, published , image , author]
+      fields: [title, date, categories, tags, description, comments, pin, published, image, author]
     fields:
-      - { name: title, label: Title, type: string, required: true }
-      - { name: published, label: Published , type: boolean , default: true }
-      - { name: date, label: Date, type: date }
-      - { name: layout, type: string, hidden: true, default: post }
-      - { name: comments, label: Comments, type: boolean, default: true }
-      - { name: description, label: Description, type: string, options: { maxlength: 160 } }
-      - { name: category, label: Category, type: select, options: { Blog: "Blog", Tutorial: "Tutorial", News: "News", Review: "Review" } }
-      - { name: image, label: Image, type: image }
-      - { name: body, label: Body, type: rich-text }
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: layout
+        type: string
+        hidden: true
+        default: post
+      - name: comments
+        label: Comments
+        type: boolean
+        default: true
+      - name: description
+        label: Description
+        type: string
+        options:
+          maxlength: 160
+      - name: image
+        label: Image
+        type: image
+      - name: category
+        label: Category
+        type: select
+        options:
+          Blog: Blog
+          Tutorial: Tutorial
+          News: News
+          Review: Review
+      - name: body
+        label: Body
+        type: rich-text
