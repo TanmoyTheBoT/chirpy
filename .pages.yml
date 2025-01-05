@@ -75,9 +75,6 @@ content:
           
 
         
-      - name: image
-        label: Image
-        type: image
 
           
       - name: published
