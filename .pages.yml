@@ -40,10 +40,17 @@ content:
       - name: comments
         label: Comments
         type: boolean
-        default: true
       - name: author
         label: Author
-        type: string
+        options:
+          values:
+            - value: bob
+              label: Bob Smith
+            - value: patricia
+              label: Patricia Wills
+            - value: alice
+              label: Alice Brown
+
 
   - name: config
     label: Jekyll config
