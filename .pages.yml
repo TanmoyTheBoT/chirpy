@@ -5,8 +5,21 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [ title, published, date ]
+      fields: [title, date, categories, tags, description, comments, pin, published , image , author]
     fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+         Blog: "Blog"
+         Tutorial: "Tutorial"
+         News: "News"
+         Review: "Review"
+      
       - name: published
         label: Published
         type: boolean
