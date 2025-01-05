@@ -31,8 +31,12 @@ content:
         options:
           values:
 
-            - value: option_1 
-              label: 'Option 1'  
+            - value: [Miscellaneous]
+              label: 'Miscellaneous'
+            - value: [Subscriptions]
+              label: 'Subscriptions'
+            - value: [Tutorials] 
+              label: 'Tutorials'
 
         
          
