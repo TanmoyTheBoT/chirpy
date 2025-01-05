@@ -74,17 +74,21 @@ content:
         type: image
           
 
-        
 
-          
       - name: published
         label: Published
         type: boolean
-        default: true        
+        default: true   
+        
+      - name: pin
+        label: Pin Post
+        type: boolean
+        default: false  
 
       - name: comments
         label: Comments
         type: boolean
+        default: false 
 
       - name: body
         label: Body
