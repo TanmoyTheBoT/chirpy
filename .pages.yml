@@ -24,33 +24,13 @@ content:
          format: yyyy-MM-dd HH:mm +600
         required: true
          
-#     - name: categories
+      - name: categories
         label: Categories
-        type: select
-        options:
-          values:
-            - value: Miscellaneous
-              label: Miscellaneous
-            - value: Subscriptions
-              label: Subscriptions
-            - value: Tutorials 
-              label: Tutorials
+        type: string
         
-
-#     - name: tags
+      - name: tags
         label: Tags
-        type: select
-        options:
-         values:
-         - value: 'tanmoythebot'
-           label: 'tanmoythebot'
-
-         - value: 'tanmoy'
-           label: 'tanmoy'
-
-         - value: 'tutorials'
-           label: 'tutorials'
-
+        type: string
               
       - name: author
         label: Author
