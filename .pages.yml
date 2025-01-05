@@ -118,7 +118,7 @@ content:
       - name: url
         label: Website URL
         type: string
-        pattern: "^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$"
+        pattern: "^(https?:\\/\\/)?(www\\.)?[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}(\\/[^\\s]*)?$"
         required: true
         default: "https://TanmoyTheBoT.github.io"
         
