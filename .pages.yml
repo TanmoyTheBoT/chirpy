@@ -13,5 +13,6 @@ content:
       - { name: layout, type: string, hidden: true, default: post }
       - { name: comments, label: Comments, type: boolean, default: true }
       - { name: description, label: Description, type: string, options: { maxlength: 160 } }
+      - { name: category, label: Category, type: select, options: { Blog: "Blog", Tutorial: "Tutorial", News: "News", Review: "Review" } }
       - { name: image, label: Image, type: image }
       - { name: body, label: Body, type: rich-text }
