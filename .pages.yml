@@ -62,18 +62,25 @@ content:
             - value: alice
               label: Alice Brown
         required: true
-         
-      - name: body
-        label: Body
-        type: rich-text
-      - name: image
-        label: Image
-        type: image
+        
       - name: description
         label: Description
         type: string
         options:
           maxlength: 160
+
+      - name: image
+        label: Image
+        type: image
+          
+      - name: body
+        label: Body
+        type: rich-text
+        
+      - name: image
+        label: Image
+        type: image
+
           
       - name: published
         label: Published
