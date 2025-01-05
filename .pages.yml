@@ -21,7 +21,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd HH:mm XXX
+          format: yyyy-MM-dd HH:mm +600
         required: true
          
       - name: categories
