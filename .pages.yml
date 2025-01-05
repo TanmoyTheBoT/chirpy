@@ -41,15 +41,27 @@ content:
         label: Tags
         type: select
         options:
-          values:
-            - value: tanmoythebot
-              label: tanmoythebot
-            - value: tanmoy
-              label: tanmoy
-            - value: tutorials 
-              label: tutorials
-            - value: tutorials gh new post
-              label: tutorials-all
+         values:
+         - value: 'tanmoythebot'
+           label: 'tanmoythebot'
+
+         - value: 'tanmoy'
+           label: 'tanmoy'
+
+         - value: 'tutorials'
+           label: 'tutorials'
+
+         - value: 'tanmoythebot tanmoy'
+           label: tanmoythebot tanmoy
+
+         - value: 'tanmoy tutorials'
+           label: 'tanmoy tutorials'
+
+         - value: 'tutorials tanmoythebot'
+           label: 'tutorials tanmoythebot'
+
+         - value: 'tanmoythebot tanmoy tutorials'
+           label: 'tanmoythebot tanmoy tutorials'
               
       - name: author
         label: Author
