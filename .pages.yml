@@ -35,7 +35,7 @@ content:
               label: Subscriptions
             - value: '[Tutorials]' 
               label: Tutorials
-        required: true
+        
 
       - name: tags
         label: Tags
@@ -48,7 +48,7 @@ content:
               label: tanmoy
             - value: '[tutorials]' 
               label: tutorials
-        required: true
+        
               
       - name: author
         label: Author
