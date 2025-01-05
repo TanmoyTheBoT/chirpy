@@ -31,11 +31,11 @@ content:
         options:
           values:
 
-            - value: '[Miscellaneous]'
+            - value: Miscellaneous
               label: 'Miscellaneous'
-            - value: '[Subscriptions]'
+            - value: Subscriptions
               label: 'Subscriptions'
-            - value: '[Tutorials]' 
+            - value: Tutorials
               label: 'Tutorials'
 
         
