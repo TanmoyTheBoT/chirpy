@@ -42,7 +42,7 @@ content:
         label: Tags
         type: select
         options:
-         values: '[ tanmoythebot, news, tanmoy ]'
+         values: [ 'tanmoythebot', 'news', 'tanmoy' ]
          
          
       - name: body
