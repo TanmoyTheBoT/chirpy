@@ -1,11 +1,14 @@
-media: media
+media:
+  input: assets/images
+  output: /assets/images
+
 content:
   - name: posts
     label: Posts
     type: collection
     path: '_posts'
     view:
-      fields: [title, date, categories, tags, description, comments, pin, published , image , author]
+      fields: [title, date, category, tags, description, comments, pin, published, image, author]
     fields:
       - name: title
         label: Title
@@ -15,11 +18,10 @@ content:
         label: Category
         type: select
         options:
-         Blog: "Blog"
-         Tutorial: "Tutorial"
-         News: "News"
-         Review: "Review"
-      
+          Blog: "Blog"
+          Tutorial: "Tutorial"
+          News: "News"
+          Review: "Review"
       - name: published
         label: Published
         type: boolean
@@ -27,12 +29,30 @@ content:
       - name: date
         label: Date
         type: date
-      - name: title
-        label: Title
-        type: string
       - name: body
         label: Body
         type: rich-text
+      - name: image
+        label: Image
+        type: image
+      - name: description
+        label: Description
+        type: string
+        options:
+          maxlength: 160
+      - name: tags
+        label: Tags
+        type: list
+        items:
+          type: string
+      - name: comments
+        label: Comments
+        type: boolean
+        default: true
+      - name: author
+        label: Author
+        type: string
+
   - name: config
     label: Jekyll config
     path: _config.yml
@@ -44,7 +64,7 @@ content:
       - name: description
         label: Website description
         type: string
-        description: Will be provused for any page with no description.
+        description: Will be provided for any page with no description.
       - name: url
         label: Website URL
         type: string
