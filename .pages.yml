@@ -23,7 +23,7 @@ content:
         label: Date
         type: date
         options:
-         format: yyyy-MM-dd'T'HH:mm+600
+         format: yyyy-MM-dd HH:mm +600
       - name: body
         label: Body
         type: rich-text
