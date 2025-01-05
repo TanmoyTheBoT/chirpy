@@ -73,9 +73,7 @@ content:
         label: Image
         type: image
           
-      - name: body
-        label: Body
-        type: rich-text
+
         
       - name: image
         label: Image
@@ -90,6 +88,10 @@ content:
       - name: comments
         label: Comments
         type: boolean
+
+      - name: body
+        label: Body
+        type: rich-text
 
 
 
