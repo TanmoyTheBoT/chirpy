@@ -48,7 +48,7 @@ content:
               label: tanmoy
             - value: tutorials 
               label: tutorials
-            - value: 'tutorials gh new post'
+            - value: tutorials gh new post
               label: tutorials-all
               
       - name: author
