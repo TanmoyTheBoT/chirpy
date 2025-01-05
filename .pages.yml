@@ -15,43 +15,53 @@ content:
         label: Title
         type: string
         required: true
-     
-
+        
       - name: date
         label: Date
         type: date
         options:
          time: true
          format: yyyy-MM-dd HH:mm +600
+        required: true
          
       - name: categories
         label: Categories
         type: select
-        
         options:
           values:
-
             - value: '[Miscellaneous]'
               label: Miscellaneous
             - value: '[Subscriptions]'
               label: Subscriptions
             - value: '[Tutorials]' 
               label: Tutorials
+        required: true
 
       - name: tags
         label: Tags
         type: select
-        
         options:
           values:
-
             - value: '[tanmoythebot]'
               label: tanmoythebot
             - value: '[tanmoy]'
               label: tanmoy
             - value: '[tutorials]' 
               label: tutorials
-         
+        required: true
+              
+      - name: author
+        label: Author
+        type: select
+        options:
+          values:
+            - value: tanmoythebot
+              label: TanmoyTheBoT
+            - value: patricia
+              label: Patricia Wills
+            - value: alice
+              label: Alice Brown
+        required: true
          
       - name: body
         label: Body
@@ -73,17 +83,7 @@ content:
       - name: comments
         label: Comments
         type: boolean
-      - name: author
-        label: Author
-        type: select
-        options:
-          values:
-            - value: bob
-              label: Bob Smith
-            - value: patricia
-              label: Patricia Wills
-            - value: alice
-              label: Alice Brown
+
 
 
   - name: config
