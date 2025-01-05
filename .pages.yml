@@ -8,7 +8,7 @@ content:
     type: collection
     path: '_posts'
     view:
-      fields: [title, date, categories, tags, description, comments, pin, published, image, author]
+      fields: [title, date, category, tags, description, comments, pin, published, image, author]
     fields:
     
       - name: title
@@ -20,8 +20,8 @@ content:
         label: Date
         type: date
         options:
-          time: true
-          format: yyyy-MM-dd HH:mm +600
+         time: true
+         format: yyyy-MM-dd HH:mm +600
         required: true
          
       - name: categories
@@ -33,24 +33,23 @@ content:
               label: Miscellaneous
             - value: Subscriptions
               label: Subscriptions
-            - value: Tutorials
+            - value: Tutorials 
               label: Tutorials
-        required: true
         
+
       - name: tags
         label: Tags
         type: select
-        multiple: true
         options:
           values:
-            - value: hello
-              label: hello
             - value: tanmoythebot
               label: tanmoythebot
-            - value: tutorials
+            - value: tanmoy
+              label: tanmoy
+            - value: tutorials 
               label: tutorials
-        required: true
         
+              
       - name: author
         label: Author
         type: select
@@ -73,7 +72,9 @@ content:
       - name: image
         label: Image
         type: image
-        
+          
+
+
       - name: published
         label: Published
         type: boolean
@@ -92,3 +93,26 @@ content:
       - name: body
         label: Body
         type: rich-text
+
+
+
+  - name: config
+    label: Jekyll config
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Website title
+        type: string
+      - name: description
+        label: Website description
+        type: string
+        description: Will be provided for any page with no description.
+      - name: url
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
