@@ -24,7 +24,7 @@ content:
          format: yyyy-MM-dd HH:mm +600
         required: true
          
-      - name: categories
+#     - name: categories
         label: Categories
         type: select
         options:
@@ -37,7 +37,7 @@ content:
               label: Tutorials
         
 
-      - name: tags
+#     - name: tags
         label: Tags
         type: select
         options:
@@ -51,17 +51,6 @@ content:
          - value: 'tutorials'
            label: 'tutorials'
 
-         - value: 'tanmoythebot tanmoy'
-           label: tanmoythebot tanmoy
-
-         - value: 'tanmoy tutorials'
-           label: 'tanmoy tutorials'
-
-         - value: 'tutorials tanmoythebot'
-           label: 'tutorials tanmoythebot'
-
-         - value: 'tanmoythebot tanmoy tutorials'
-           label: 'tanmoythebot tanmoy tutorials'
               
       - name: author
         label: Author
