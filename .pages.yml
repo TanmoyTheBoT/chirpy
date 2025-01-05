@@ -41,8 +41,16 @@ content:
       - name: tags
         label: Tags
         type: select
+        
         options:
-         values: [ 'tanmoythebot', 'news', 'tanmoy' ]
+          values:
+
+            - value: '[tanmoythebot]'
+              label: tanmoythebot
+            - value: '[tanmoy]'
+              label: tanmoy
+            - value: '[tutorials]' 
+              label: tutorials
          
          
       - name: body
