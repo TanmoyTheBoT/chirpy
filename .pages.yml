@@ -26,11 +26,11 @@ content:
          
       - name: categories
         label: Categories
-        type: string
+        type: 'string'
         
       - name: tags
         label: Tags
-        type: string
+        type: 'string'
         
               
       - name: author
