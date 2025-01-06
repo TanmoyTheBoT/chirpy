@@ -31,7 +31,7 @@ content:
       - name: tags
         label: Tags
         type: string
-        description: "Enter relevant tags separated by commas."
+        
               
       - name: author
         label: Author
